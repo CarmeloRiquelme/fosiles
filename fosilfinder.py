@@ -1,8 +1,9 @@
 import cv2
 import numpy as np
-url = "http://10.216.4.182:8080"
-cp = cv2.VideoCapture(url)
+
 while(True):
+    url = "http://10.216.4.182:8080/shot.jpg"
+    cp = cv2.VideoCapture(url)
     camera, frame = cap.read()
     if frame is not None:
         cv2.imshow("Frame", frame)
