@@ -14,7 +14,8 @@ while(True):
         #cv2.imshow("Frame", frame) # mostrar tipo cv2
         st.image(im_pil, caption='Sunrise by the mountains')
 
-    q = cv2.waitKey(1)
-    if q==ord("q"):
-        break
-cv2.destroyAllWindows()
+    #q = cv2.waitKey(1)
+    #if q==ord("q"):
+        #break
+    
+    #cv2.destroyAllWindows()
