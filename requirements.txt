@@ -1,4 +1,6 @@
 opencv_python_headless==4.5.5.64
+PILasOPENCV==2.7
 Pillow==7.2.0
+pillow-scripts==5.0.0
 streamlit==0.62.1
 pyftplib==1.5.6
