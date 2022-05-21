@@ -15,7 +15,8 @@ im_pil = Image.fromarray(img)
 im_pil.save("fosil", 'PNG') # fn is a filename
 file = open('fosil','rb')                  # file to send
 session.storbinary('STOR /public/fosil/fosil.jpg', file)     # send the file
-#file.close()                                    # close file and FTP
+#file.close() 
+st.image(file, caption='Sunrise by the mountains')# close file and FTP
 session.quit()
 #cv2.imshow("Frame", file) # mostrar tipo cv2
 #cv2.destroyAllWindows()
